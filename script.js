@@ -1,7 +1,7 @@
 const nameInput = document.querySelector("#name");
 const yearInput = document.querySelector("#year");
 const h3 = document.querySelector("#url");
-const submitBtn = document.querySelector("#submit");
+const submitBtn = document.querySelector("#button");
 
 submitBtn.addEventListener("click", () => {
   const name = nameInput.value;
